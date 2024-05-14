@@ -22,9 +22,9 @@ public class InventoryServiceApplication {
 		return args -> {
 			repositoryRestConfiguration.exposeIdsFor(Product.class);
 
-			prdRepository.save(new Product(null,"Ordinateur",1500));
-			prdRepository.save(new Product(null,"Imprimante",250));
-			prdRepository.findAll().forEach(System.out::println);
+			//prdRepository.save(new Product(null,"Ordinateur",1500));
+			//prdRepository.save(new Product(null,"Imprimante",250));
+			//prdRepository.findAll().forEach(System.out::println);
 		};
 	}
 

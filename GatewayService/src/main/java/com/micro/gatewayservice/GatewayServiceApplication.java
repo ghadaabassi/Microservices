@@ -1,5 +1,6 @@
 package com.micro.gatewayservice;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.ReactiveDiscoveryClient;
@@ -21,7 +22,6 @@ public class GatewayServiceApplication {
 			DiscoveryLocatorProperties dlp, ReactiveDiscoveryClient rdc) {
 		return new DiscoveryClientRouteDefinitionLocator( rdc, dlp);
 	}
-
 
 
 }
