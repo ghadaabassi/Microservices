@@ -177,7 +177,7 @@ public class BillingServiceApplication {
 
 			Collection<ProductItem> productItems=null;
 
-			Customer c1 = customerservice.findCustomerById(1L);
+			Customer c1 = customerservice.findCustomerById(2L);
 			System.out.println(c1.getId());
 			System.out.println(c1.getName());
 			System.out.println(c1.getEmail());
